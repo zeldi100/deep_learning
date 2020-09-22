@@ -23,7 +23,7 @@ Design of a custom LSTM RNN and fit it using training data.
 ## 4. Evaluation and Findings
 Various iterations of the model was executed to determine which model would be the best predictor. The window size and batch size was adjusted and outcomes compared. 
 
-For all iterations, the model where the previous closing prices was used to predict the future closing prices outperformed the FNG model each time. 
+For all iterations, the model where the previous closing prices was used to predict the future closing prices, outperformed the FNG model each time. 
 
 The model with the **lowest loss** was the Closing price model.
 
@@ -32,10 +32,10 @@ The model that **tracks the actual values best over time** is the Closing Price 
 The Closing Prices model with a **window size** of 3 works best.
 
 Closing Price Model results: </br>
-![Closing price model results](Images/Closing price Bitcoin- real vs predicted.png)
+![Image](Images/Closing_predicted_price_Bitcoin.png)
 
 FNG closing price prediction model:</br>
-![FNG model results](Images/Closing price Bitcoin- real vs FNG predicted.png)
+![image](Images/FNG_predicted_Closing_price_Bitcoin.png)
 
 ## Jupyter notebooks
 [Closing Prices Starter Notebook](Starter_Code/lstm_stock_predictor_closing.ipynb)
